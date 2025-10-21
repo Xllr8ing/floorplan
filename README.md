@@ -1,5 +1,5 @@
 # floorplan
-my floorplan layout that consist of GIF files and a custom floorplan, honeycomb menus, and more.
+my Home Assistant floorplan layout that consist of GIF files and a custom floorplan, honeycomb menus, and more.
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/xllr8ing)
 
