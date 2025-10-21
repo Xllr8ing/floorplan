@@ -1,0 +1,812 @@
+type: picture-elements
+elements:
+  - type: image
+    entity: input_boolean.fp_1
+    title: floor gif 1
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "off": local/gif/l2f.gif
+    style:
+      top: 50%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: input_boolean.fp_1
+    title: floor gif 2
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/gif/f2l.gif
+    style:
+      top: 50%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: input_boolean.fp_11
+    title: main fp image
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/floorplan/1st2024.jpg
+    style:
+      top: 51.3%
+      left: 50%
+      width: 110%
+  - type: image
+    entity: binary_sensor.acfrigate_person_occupancy
+    title: Backgate Camera
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/restricted.gif
+    style:
+      top: "-4%"
+      left: 14%
+      width: 20%
+      opacity: 0.5
+  - type: image
+    entity: binary_sensor.tapocam_person_occupancy
+    title: AC Motion
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/restricted.gif
+    style:
+      top: 44%
+      left: 1%
+      width: 14%
+      opacity: 0.5
+  - type: image
+    entity: binary_sensor.westdeck_person_occupancy
+    title: Westdeck Motion
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/restricted.gif
+    style:
+      top: 1%
+      left: 38%
+      width: 15%
+      opacity: 0.5
+  - type: image
+    entity: binary_sensor.eastdeck360_person_occupancy
+    title: Laundry Deck Motion
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/restricted.gif
+    style:
+      top: "-5%"
+      left: 68%
+      width: 20%
+      opacity: 0.5
+  - type: image
+    entity: binary_sensor.driveway_zone_1_person_detected
+    title: Driveway 1 Motion
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/restricted.gif
+    style:
+      top: 113%
+      left: 86%
+      width: 27%
+      opacity: 0.5
+  - type: image
+    entity: binary_sensor.driveway_person_lens_0
+    title: Driveway 2 Motion
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/restricted.gif
+    style:
+      top: 113%
+      left: 72%
+      width: 27%
+      opacity: 0.5
+  - type: image
+    entity: binary_sensor.doorbell_person_detected
+    title: Doorbell Motion
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/restricted.gif
+    style:
+      top: 89%
+      left: 38%
+      width: 15%
+      opacity: 0.5
+  - type: image
+    entity: binary_sensor.driveway_person_lens_1
+    title: Frontyard Motion
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/restricted.gif
+    style:
+      top: 113%
+      left: 44%
+      width: 27%
+      opacity: 0.5
+  - type: image
+    entity: binary_sensor.big_garage_door_contact
+    title: Garage Camera
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/floorplan/gar1.gif
+    style:
+      top: 81%
+      left: 71%
+      width: 23%
+      opacity: 0.5
+  - type: image
+    entity: switch.porch_light_kasa_3
+    title: Porch Light Overlay 1
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/lightoverlay.png
+    style:
+      top: 78%
+      left: 28%
+      width: 10%
+      opacity: 0.9
+  - type: image
+    entity: switch.porch_light_kasa_3
+    title: Porch Light overlay 2
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/lightoverlay.png
+    style:
+      top: 78%
+      left: 41%
+      width: 10%
+      opacity: 0.9
+  - type: image
+    entity: switch.nspanel2_relay_2_2
+    title: Garage overlay
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/lightoverlay.png
+    style:
+      top: 59%
+      left: 73%
+      width: 32%
+      opacity: 0.5
+  - type: image
+    entity: light.bathroom
+    title: Bathroom overlay
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/lightoverlay.png
+    style:
+      top: 29%
+      left: 17%
+      width: 15%
+      opacity: 0.5
+  - type: image
+    entity: switch.dining_room_kasa_3
+    title: Dining Room Overlay
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/whitelayer.png
+    style:
+      top: 58%
+      left: 51%
+      width: 20%
+      opacity: 0.9
+  - type: image
+    entity: binary_sensor.front_door_contact
+    title: Driveway Camera
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/floorplan/frontdoor.gif
+    style:
+      top: 73%
+      left: 35%
+      width: 7%
+      opacity: 0.5
+  - type: image
+    entity: binary_sensor.kitchen_door_contact
+    title: kitchen door
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/floorplan/frontdoor.gif
+    style:
+      top: 19%
+      left: 53%
+      width: 7%
+      opacity: 0.5
+  - type: state-label
+    entity: weather.home
+    attribute: temperature
+    suffix: °F
+    style:
+      top: 14%
+      left: 95%
+      width: null
+      transform: scale(3,3)
+      opacity: 1
+      color: black
+  - type: state-badge
+    entity: weather.home
+    style:
+      top: 8%
+      left: 95%
+      opacity: 1
+      color: black
+  - type: state-icon
+    entity: light.bathroom
+    style:
+      top: 31%
+      left: 14%
+    tap_action:
+      action: toggle
+  - type: state-label
+    entity: sensor.bathroom_temperature_temperature
+    style:
+      top: 23%
+      left: 18%
+      width: 50
+      opacity: 1
+      color: yellow
+  - type: state-label
+    entity: sensor.air_quality_sensor_temperature
+    style:
+      top: 69%
+      left: 18%
+      width: 50
+      opacity: 1
+      color: yellow
+  - type: state-label
+    entity: sensor.nspanel2_temperature_2
+    style:
+      top: 44%
+      left: 88%
+      width: 50
+      opacity: 1
+      color: yellow
+  - type: image
+    entity: light.tv_light
+    title: Lamp B overlay
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/lightoverlay.png
+    style:
+      top: 57%
+      left: 17%
+      width: 13%
+      opacity: 0.5
+  - type: state-label
+    entity: switch.bedroom_climate_control
+    style:
+      top: 87%
+      left: 14%
+    tap_action:
+      action: toggle
+  - type: service-button
+    title: Climate
+    service: input_select.select_next
+    service_data:
+      entity_id: switch.bedroom_climate_control
+    style:
+      top: 79%
+      left: 15%
+      background: "#eaeaea"
+      border-radius: 5%
+  - type: custom:hui-element
+    card_type: gauge
+    names: Bedroom Air Quality
+    needle: true
+    min: 0
+    max: 125
+    segments:
+      - from: 0
+        color: "#000099"
+      - from: 25
+        color: "#009900"
+      - from: 75
+        color: "#990000"
+    entity: sensor.air_quality_sensor_pm25
+    style:
+      left: "-3%"
+      top: 29.75%
+      width: 20%
+      height: 25%
+      transform: scale(0.3,0.3)
+  - type: custom:hui-element
+    card_type: gauge
+    names: Kitchen Air Quality
+    needle: true
+    min: 0
+    max: 500
+    segments:
+      - from: 0
+        color: "#000099"
+      - from: 250
+        color: "#009900"
+      - from: 500
+        color: "#990000"
+    entity: sensor.kitchen_kitchen_air_quality
+    style:
+      left: 60%
+      top: 0%
+      width: 20%
+      height: 25%
+      transform: scale(0.3,0.3)
+  - type: state-icon
+    entity: light.tv_light
+    style:
+      top: 57%
+      left: 20%
+    tap_action:
+      action: toggle
+  - type: state-icon
+    entity: sensor.bailey_feeder_last_amount
+    style:
+      top: 43%
+      left: 18%
+    tap_action:
+      action: toggle
+  - type: state-icon
+    tap_action: navigate
+    navigation_path: /lovelace/1st-floor/2nd
+    entity: media_player.sony_bravia_tv
+    style:
+      top: 63%
+      left: 22%
+  - type: image
+    entity: light.lamp_b
+    title: Lamp A overlay
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/lightoverlay.png
+    style:
+      top: 58%
+      left: 12%
+      width: 15%
+      opacity: 0.5
+  - type: state-icon
+    entity: light.lamp_b
+    style:
+      top: 58%
+      left: 9%
+    tap_action:
+      action: toggle
+    icon: mdi:lamp
+    state_color: true
+  - type: image
+    entity: light.lamp_a
+    title: Lamp A overlay
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/lovelace/overlay/lightoverlay.png
+    style:
+      top: 75%
+      left: 09%
+      width: 15%
+      opacity: 0.5
+  - type: state-icon
+    entity: light.lamp_a
+    style:
+      top: 74%
+      left: 7%
+    tap_action:
+      action: toggle
+    icon: mdi:lamp
+  - type: state-icon
+    entity: media_player.googlehome9494
+    style:
+      top: 66%
+      left: 8%
+  - type: image
+    entity: switch.bedroom_heater_has_switch
+    tap_action:
+      action: toggle
+    image: local/lovelace/icon/Fanoff.jpg
+    state_image:
+      "on": local/lovelace/icon/Fanon.gif
+    style:
+      top: 75%
+      left: 19%
+      width: 3%
+  - type: state-icon
+    entity: vacuum.betty
+    style:
+      top: 39%
+      left: 29%
+  - type: state-icon
+    title: Ambient Kitchen Light
+    entity: light.ambient_kitchen_light
+    style:
+      top: 26%
+      left: 45%
+    tap_action:
+      action: toggle
+  - type: state-icon
+    name: garage light
+    entity: switch.nspanel2_relay_2_2
+    style:
+      top: 43%
+      left: 68%
+    tap_action:
+      action: toggle
+  - type: state-icon
+    title: Patio West
+    entity: binary_sensor.furnace_air_filter_door_contact
+    style:
+      top: 7%
+      left: 42%
+  - type: state-icon
+    title: Patio East
+    entity: binary_sensor.east_deck_door_contact
+    style:
+      top: 7%
+      left: 59%
+  - type: image
+    entity: binary_sensor.patio_door_west_contact
+    title: Pation door West
+    tap_action: none
+    hold_action:
+      action: none
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/floorplan/frontdoor.gif
+    style:
+      top: 7%
+      left: 42%
+      width: 7%
+      opacity: 0.5
+  - type: state-label
+    entity: climate.smitty_city
+    attribute: temperature
+    suffix: °F
+    style:
+      top: 50%
+      left: 39%
+      width: 50
+      opacity: 1
+      color: yellow
+  - type: image
+    entity: input_boolean.fp_11
+    title: camaro
+    tap_action:
+      action: navigate
+      navigation_path: /lovelace-cars/0
+    hold_action:
+      action: navigate
+      navigation_path: /lovelace-cars/11
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/cars/camgarage.png
+    style:
+      top: 64%
+      left: 84%
+      width: 8.8%
+  - type: custom:mushroom-template-card
+    primary: null
+    secondary: null
+    icon: phu:scene-relax
+    layout: vertical
+    icon_color: blue
+    hold_action:
+      action: call-service
+      service: input_boolean.toggle
+      service_data:
+        entity_id: input_boolean.camaro_floorplan
+    tap_action:
+      action: fire-dom-event
+      honeycomb_menu:
+        buttons:
+          - icon: mdi:lock
+            color_type: card
+            color: blue
+            tap_action:
+              action: perform-action
+              perform_action: script.camaro_lock_script
+          - icon: mdi:lock-open
+            color_type: card
+            color: blue
+            tap_action:
+              action: perform-action
+              perform_action: script.camaro_unlock_script
+          - icon: mdi:car-door-lock-open
+            color_type: card
+            color: blue
+            tap_action:
+              action: perform-action
+              perform_action: script.camaro_windows_down_script
+          - icon: phu:tesla-trunk
+            color_type: card
+            color: blue
+            tap_action:
+              action: perform-action
+              perform_action: script.camaro_trunk_script
+          - icon: mdi:restart
+            color_type: card
+            color: blue
+            tap_action:
+              action: perform-action
+              perform_action: script.camaro_start_script
+          - icon: mdi:car-door-lock
+            color_type: card
+            color: blue
+            tap_action:
+              action: perform-action
+              perform_action: script.camaro_windows_up_script
+    picture: local/lovelace/overlay/lightoverlaytran.png
+    card_mod:
+      style: |
+        mushroom-shape-icon {
+          --shape-color: none !important;
+          --shape-color-disabled: none !important;}
+        ha-card { 
+          background: transparent;
+          width: 26px;
+          border-radius: 10px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 2px;
+        }
+    style:
+      left: 83%
+      top: 64%
+      transform: scale(.1,.1..1)
+  - type: image
+    entity: input_boolean.fp_11
+    title: corvette
+    tap_action:
+      action: navigate
+      navigation_path: /lovelace-cars/0
+    hold_action:
+      action: navigate
+      navigation_path: /lovelace-cars/11
+    image: local/lovelace/overlay/lightoverlaytran.png
+    state_image:
+      "on": local/cars/corvgar.png
+    style:
+      left: 75%
+      top: 62%
+      width: 9%
+      type: picture-elements
+    elements: null
+  - type: custom:mushroom-template-card
+    primary: null
+    secondary: null
+    icon: phu:scene-relax
+    layout: vertical
+    icon_color: blue
+    tap_action:
+      action: fire-dom-event
+      service: honeycomb
+      honeycomb_menu:
+        buttons:
+          - icon: mdi:lock
+            color_type: card
+            color: gray
+            tap_action:
+              action: perform-action
+              perform_action: script.camaro_lock_script
+          - icon: mdi:lock-open
+            color_type: card
+            color: gray
+            tap_action:
+              action: call-service
+              service: script
+              service_data:
+                entity_id: script.camaro_lock_script
+          - icon: mdi:car-door-lock-open
+            color_type: card
+            color: white
+            tap_action:
+              action: perform-action
+              perform_action: script.camaro_windows_down_script
+          - icon: phu:tesla-trunk
+            color_type: card
+            color: gray
+            tap_action:
+              action: perform-action
+              perform_action: script.camaro_trunk_script
+          - icon: mdi:restart
+            color_type: card
+            color: gray
+            hold_action:
+              action: perform-action
+              perform_action: script.camaro_start_script
+          - icon: mdi:car-door-lock
+            color_type: card
+            color: white
+            tap_action:
+              action: perform-action
+              perform_action: script.camaro_windows_up_script
+    picture: local/lovelace/overlay/lightoverlaytran.png
+    card_mod:
+      style: |
+        mushroom-shape-icon {
+          --shape-color: none !important;
+          --shape-color-disabled: none !important;}
+        ha-card { 
+          background: transparent;
+          width: 2px;
+          border-radius: 10px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 2px;
+        }
+    style:
+      left: 72%
+      top: 59%
+      transform: scale(.053,.014,.08)
+  - type: image
+    title: Explorer
+    image: local/cars/explorer.png
+    tap_action:
+      action: navigate
+      navigation_path: /lovelace-cars/8
+    hold_action:
+      action: navigate
+      navigation_path: /lovelace-cars/13
+    style:
+      left: 67%
+      top: 62%
+      width: 9%
+      type: picture-elements
+    elements: null
+  - type: state-label
+    entity: sensor.kitchen_kitchen_temperature
+    style:
+      left: 70%
+      top: 20%
+      color: yellow
+  - type: state-icon
+    style:
+      left: 50%
+      top: 50%
+    entity: switch.dining_room_kasa_3
+    tap_action:
+      action: toggle
+    icon: phu:chandelier
+  - type: state-icon
+    style:
+      left: 37%
+      top: 20%
+    entity: light.great_room_1
+  - type: state-icon
+    entity: light.great_room_2
+    style:
+      left: 41%
+      top: 20%
+  - type: state-icon
+    entity: light.kitchen_cabinet_1
+    style:
+      top: 19%
+      left: 60%
+    tap_action:
+      action: toggle
+  - type: state-icon
+    entity: light.kitchen_cabinet_2
+    style:
+      top: 23%
+      left: 73%
+    tap_action:
+      action: toggle
+  - type: state-icon
+    entity: light.kitchen_cabinet_3
+    style:
+      top: 33%
+      left: 73%
+    tap_action:
+      action: toggle
+  - type: state-icon
+    entity: media_player.kitchen_display
+    style:
+      top: 23%
+      left: 59%
+    tap_action:
+      action: toggle
+  - type: state-icon
+    entity: media_player.kitchen_roku
+    style:
+      top: 23%
+      left: 59%
+    tap_action:
+      action: toggle
+  - type: state-icon
+    style:
+      left: 40%
+      top: 55%
+    entity: media_player.terrance_s_2nd_fire
+  - type: state-icon
+    entity: switch.porch_light_kasa_3
+    style:
+      top: 80%
+      left: 29%
+    tap_action:
+      action: toggle
+  - type: state-icon
+    entity: switch.porch_light_kasa_3
+    style:
+      top: 80%
+      left: 39%
+    tap_action:
+      action: toggle
+  - type: state-icon
+    style:
+      left: 50%
+      top: 40%
+    entity: light.dining_room_ambient_2
+    state_color: true
+  - type: state-icon
+    entity: media_player.garage_speaker
+    style:
+      left: 65%
+      top: 48%
+  - type: state-icon
+    style:
+      left: 17%
+      top: 15%
+    entity: switch.bathroom_heater_2
+image: local/floorplan/1st2024.jpg
+grid_options:
+  rows: 14
+  columns: 48
+visibility:
+  - condition: state
+    entity: input_boolean.fp_first
+    state: "on"
+  - condition: state
+    entity: input_boolean.camaro_floorplan
+    state: "off"
